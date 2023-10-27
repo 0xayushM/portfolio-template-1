@@ -3,33 +3,22 @@ import React from 'react';
 import profileData from '../data/profileData.json';
 import Quote from './quote';
 import BlogButton from './blogButton';
+import Stars from './stars';
 const Profile = () => {
     const { greeting, profileImage, description } = profileData;
 
     return (
-        <div className='sm:h-screen sm:pt-0 flex flex-col items-center justify-center profile_section' id='profile'>
-            <h1 className='heading'>
-                {greeting}
-            </h1>
-            <div className='section_container'>
-                <Image src={profileImage.src} height={profileImage.height} width={profileImage.width} alt={profileImage.alt} />
-                <div className='description'>
-                    <div className='content'>
-                        <p dangerouslySetInnerHTML={{ __html: description.content.replace(/<highlight>/g, '<span class="highlight">').replace(/<\/highlight>/g, '</span>') }} />
-                        <br />
-                        <p>What I do :</p>
-                        <ul>
-                            {description.bulletedContent.map((bullet, index) => (
-                                <li key={index} dangerouslySetInnerHTML={{ __html: bullet.replace(/<highlight>/g, '<span class="highlight">').replace(/<\/highlight>/g, '</span>') }} />
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className='blog_button_2 flex items-center justify-center py-10'><BlogButton/></div>
-
-            <div className='pt-0 pb-10 sm:py-10'>
-                <Quote/>
+        <div className='section'>
+            <h2 className=''>stars</h2>
+            <div>
+            <div className='star star1'></div>
+            <div className='star star2'></div>
+            <div className='star star3'></div>
+            <div className='star star4'></div>
+            <div className='star star5'></div>
+            <div className='star star6'></div>
+            <div className='star star7'></div>
+            <div className='star star8'></div>
             </div>
         </div>
     );

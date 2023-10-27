@@ -25,16 +25,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background: black;
 }
 
+.container {
+  position: relative; 
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgb(0,0,0,0) transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 0px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--themeTextColor); /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
+}
+
 section {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+}
+
+.section {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden ;
   background: #000200;
@@ -43,14 +77,14 @@ section {
   align-items: center;
 }
 
-section h2 {
+.section h2 {
   color: transparent;
   font-weight: 900;
   font-size: 14em;
   -webkit-text-stroke: 2px #fff;
   text-transform: uppercase;
 }
-section .star {
+.section .star {
   position: absolute;
   top:0;
   left: 0;
@@ -60,35 +94,35 @@ section .star {
   animation: animate 8s ease-in-out infinite, backgroundmove 16s linear infinite;
 }
 
-section .star.star1 {
+.section .star.star1 {
   animation-delay: 0s;
   background: url(/stars/star1.png);
 }
-section .star.star2 {
+.section .star.star2 {
   animation-delay: -1s;
   background: url(/stars/star2.png);
 }
-section .star.star3 {
+.section .star.star3 {
   animation-delay: -2s;
   background: url(/stars/star3.png);
 }
-section .star.star4 {
+.section .star.star4 {
   animation-delay: -3s;
   background: url(/stars/star4.png);
 }
-section .star.star5 {
+.section .star.star5 {
   animation-delay: -4s;
   background: url(/stars/star5.png);
 }
-section .star.star6 {
+.section .star.star6 {
   animation-delay: -5s;
   background: url(/stars/star6.png);
 }
-section .star.star7 {
+.section .star.star7 {
   animation-delay: -6s;
   background: url(/stars/star7.png);
 }
-section .star.star8 {
+.section .star.star8 {
   animation-delay: -7s;
   background: url(/stars/star8.png);
 }
@@ -109,4 +143,26 @@ section .star.star8 {
   100% {
     transform: scale(2);
   }
+}
+
+.blog_button {
+  background-color: var(--themeColor);
+  color: var(--themeTextColor2);
+  font-family: 'minecraft';
+  padding: 5px 30px 5px 30px;
+  box-shadow: -5px 5px 0px 0px var(--boxShadow);
+  font-size: larger;
+  border-radius: 2px;
+  right: 40px;
+  top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, color 0.3s, background-color 0.3s; 
+}
+.blog_button:hover {
+      transform: scale(1.01);
+      color: var(--themeTextColor2);
+      background-color : var(--hoverColor);
+      box-shadow: -5px 5px 0px 0px var(--hoverBoxShadow);
 }

@@ -1,0 +1,41 @@
+{
+  "heading" : "Skills",
+  "data" : [
+    {
+      "name": "TypeScript",
+      "image": "/assets/typescript.png",
+      "height": 35,
+      "width": 35,
+      "alt": "typescript"
+    },
+    {
+      "name": "React",
+      "image": "/assets/react.png",
+      "height": 35,
+      "width": 35,
+      "alt": "react"
+    },
+    {
+      "name": "Next.js",
+      "image": "/assets/nextjs.png",
+      "height": 35,
+      "width": 35,
+      "alt": "next.js"
+    },
+    {
+      "name": "Nodejs",
+      "image": "/assets/nodejs.png",
+      "height": 35,
+      "width": 35,
+      "alt": "Node.js"
+    },
+    {
+      "name": "Digital Artist",
+      "image": "/assets/color-palette.png",
+      "height": 35,
+      "width": 35,
+      "alt": "Digital Artist"
+    }
+  ]
+}
+  

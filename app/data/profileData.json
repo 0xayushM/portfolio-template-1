@@ -1,0 +1,19 @@
+{
+    "greeting": "gm 👋",
+    "profileImage": {
+      "src": "/assets/profile.png",
+      "height": 300,
+      "width": 300,
+      "alt": "profile image"
+    },
+    "description": {
+      "content": "I'm a <highlight>Full Stack Developer</highlight> and <highlight>Digital Artist</highlight>.",
+      "bulletedContent": [
+        "🎉 Advocate<highlight>@GraphIndia </highlight>",
+        "👨🏻‍💻  Web Developer Team Lead <highlight>@Polygon</highlight>",
+        "👨‍🏫 Digital Artist",
+        "📝 Freelancer Graphic Designer"
+      ]
+    }
+  }
+  

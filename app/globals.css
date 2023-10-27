@@ -2,11 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'minecraft';
+  src: url('../public/assets/Minecraftia.woff') format('woff'),
+       url('../public/assets/Minecraftia.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --themeColor : #FBBF64;
+  --hoverColor: #ffdfae;
+  --boxShadow : #a98043;
+  --hoverBoxShadow : #e1ae62;
+  --themeColor2 : white;
+  --themeTextColor : white;
+  --themeTextColor2 : black;
+  --backgroundImage : url(../public/assets/background.jpg)
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
+}
+
+body {
+  background: black;
 }
 
 section {

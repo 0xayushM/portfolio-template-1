@@ -1,0 +1,229 @@
+{
+    "heading": "Work Experience",
+    "data": [
+        {
+            "organization": "Biconomy",
+            "duration": "April 2023 - Present",
+            "skills": [
+                "Solidity",
+                "TypeScript"
+            ],
+            "role": "Junior Blockchain Engineer",
+            "description": [
+                "Integration of new chains within the Biconomy’s mexa-sdk",
+                "Developing demo dapps with the integration of the Biconomy’s AA SDK",
+                "Helping devs in their technical queries in different communication channels."
+            ],
+            "type": [
+                "Dev"
+            ]
+        },
+        {
+            "organization": "The Graph India",
+            "duration": "April 2023 - Present",
+            "skills": [
+                "GraphQL",
+                "Solidity",
+                "Technical Writing"
+            ],
+            "role": "Developer Success",
+            "description": [
+                "Growing The Graph Protocol Ecosystem in INDIA.",
+                "Organising workshops and various programs to nourish the community of Graph Protocol in INDIA.",
+                "Delivering Technical Workshops to Graph Advocates around Graph Protocol."
+            ],
+            "type": [
+                "DevRel"
+            ]
+        },
+        {
+            "organization": "Hyperlane India",
+            "duration": "March 2023 - Present",
+            "skills": [
+                "Solidity",
+                "TypeScript"
+            ],
+            "role": "Developer",
+            "description": [
+                "Deployed Hyperlane on 6+ chains.",
+                "Created Technical Content about Hyperlane.",
+                "Reviewed and Tested the Documentation."
+            ],
+            "type": [
+                "Dev"
+            ]
+        },
+        {
+            "organization": "Polygon Labs",
+            "duration": "April 2022 - Present",
+            "skills": [
+                "Community Management",
+                "Public Speaking"
+            ],
+            "role": "Polygon Guild Mage",
+            "description": [
+                "Co-Founded and Managing a community of 900+ members.",
+                "Organised Rajasthan's Largest Web3 Event Polygon Guild Jaipur RoadShow attended by people from all over India.",
+                "Organised First Web3 offline workshop series in INDIA, BUIDL IRL"
+            ],
+            "type": [
+                "Volunteer"
+            ]
+        },
+        {
+            "organization": "Polygon Labs",
+            "duration": "Feb 2022 - Present",
+            "skills": [
+                "Public Speaking",
+                "Technical Writing"
+            ],
+            "role": "Polygon Advocate",
+            "description": [
+                "Gave 4+ Talks and 10+ workshops about the Web3 Ecosystem.",
+                "Spoke at a Twitter Space having 250+ listeners about Open Source and Polygon organized by GSSOC."
+            ],
+            "type": [
+                "Volunteer"
+            ]
+        },
+        {
+            "organization": "Phyllo",
+            "duration": "April 2022 - Feb 2023",
+            "skills": [
+                "Node.js",
+                "Express.js"
+            ],
+            "role": "SDE Intern",
+            "description": [
+                "Building Indexers for fetching requried data from different Blockchains.",
+                "Building 10+ APIs provide reputation data of a User, DAO, and many more."
+            ],
+            "type": [
+                "Dev"
+            ]
+        },
+        {
+            "organization": "Whrrl",
+            "duration": "March 2022 - April 2022",
+            "skills": [
+                "Solidity",
+                "Ethers.js",
+                "JavaScript"
+            ],
+            "role": "Blockchain Developer Intern",
+            "description": [
+                "Natively implemented Wallet Connect on the DApp for keeping the minimum number of libraries.",
+                "Integrated deployed smart contracts with Front-end."
+            ],
+            "type": [
+                "Dev"
+            ]
+        },
+        {
+            "organization": "Teksna",
+            "duration": "Nov 2021",
+            "skills": [
+                "Flutter",
+                "Firebase",
+                "Node.js",
+                "PostgreSQL"
+            ],
+            "role": "Mobile Application Developer",
+            "description": [
+                "Created the Authentication API and saving the data of the users in a separate database.",
+                "Design, Developed and Implemented database maintaining 2 different roles."
+            ],
+            "type": [
+                "Dev"
+            ]
+        },
+        {
+            "organization": "EduTekZila",
+            "duration": "Oct 2021 - Nov 2021",
+            "skills": [
+                "Flutter",
+                "Firebase"
+            ],
+            "role": "SDE Intern",
+            "description": [
+                "Design and Built the Back-end maintaining 3 different roles.",
+                "Developed more than 10 UI pages.",
+                "Integrated the front-end and back-end"
+            ],
+            "type": [
+                "Dev"
+            ]
+        },
+        {
+            "organization": "ENS",
+            "duration": "",
+            "skills": [
+                "Node.js"
+            ],
+            "role": "",
+            "description": [
+                "Corrected the .env naming variables."
+            ],
+            "type": [
+                "Open Source"
+            ]
+        },
+        {
+            "organization": "Hyperlane",
+            "duration": "",
+            "skills": [
+                "TypeScript"
+            ],
+            "role": "",
+            "description": [
+                "Corrected the array type in the Hyperlane Deployment."
+            ],
+            "type": [
+                "Open Source"
+            ]
+        },
+        {
+            "organization": "Hyperlane",
+            "duration": "",
+            "skills": [
+                "Technical Writing"
+            ],
+            "role": "",
+            "description": [
+                "Reviewed the docs of Hyperlane."
+            ],
+            "type": [
+                "Open Source"
+            ]
+        },
+        {
+            "organization": "Polygon",
+            "duration": "",
+            "skills": [
+                "Solidity",
+                "JavaScript"
+            ],
+            "role": "",
+            "description": [
+                "Created a started kit for the Polygon Solutions."
+            ],
+            "type": [
+                "Open Source"
+            ]
+        },
+        {
+            "organization": "Polygon",
+            "duration": "",
+            "skills": [
+                "Solidity"
+            ],
+            "role": "",
+            "description": [
+                "Managed and reviewed 60+ PRs in the zkThon."
+            ],
+            "type": [
+                "Open Source"
+            ]
+        }
+    ]
+}

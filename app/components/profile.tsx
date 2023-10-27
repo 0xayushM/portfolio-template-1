@@ -32,7 +32,7 @@ const Profile = () => {
               <p>What I do :</p>
               <ul>
                 {description.bulletedContent.map((bullet, index) => (
-                  <Link href={bullet.url} target="_blank" className={bullet.url === "" ? 'cursor-arrow' : 'cursor-pointer'}
+                  <Link href={bullet.url} target="_blank" className={bullet.url === "" ? 'cursor-default' : 'cursor-pointer'}
                   >
                   <li
                     key={index}

@@ -166,3 +166,88 @@ section {
       background-color : var(--hoverColor);
       box-shadow: -5px 5px 0px 0px var(--hoverBoxShadow);
 }
+
+.heading {
+  display: flex;
+  color: var(--themeTextColor);
+  font-family: minecraft;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  color:rgba(240, 248, 255);
+  font-family: monospace;
+}
+
+.border_style {
+  border-style: dashed;
+  border-width: thick;
+  border-color: var(--themeTextColor);
+  border-radius: 2px;
+}
+
+.highlight {
+    font-weight: bolder;
+    color: var(--themeColor);
+}
+
+.quote_bar {
+  font-family: monospace;
+  font-size: 80px;
+  color: var(--themeColor);
+  padding: 0px 20px;
+}
+
+@media only screen and (max-width: 1080px) and (min-width:600px) {
+  .border_style {
+    border-style: none;
+  }
+  .container {
+    padding: 0;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+  }
+  * {
+    scroll-snap-align: none;
+  }
+  section {
+    scroll-snap-align: none;
+    height: auto;
+  }
+  .section {
+    height: max-content;
+  }
+  .profile_container {
+    padding: 5rem 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .border_style {
+  border-style: none;
+  }
+  .container {
+    padding: 0;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+  }
+  .section {
+    height: max-content;
+  }
+  * {
+    scroll-snap-align: none;
+  }
+  section {
+    scroll-snap-align: none;
+    height: auto;
+  }
+  .heading {
+    padding-bottom: 2rem;
+  }
+  .profile_container {
+    padding: 5rem 0;
+  }
+  
+}

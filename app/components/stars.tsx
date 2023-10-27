@@ -2,8 +2,7 @@ import React from 'react'
 
 const Stars = () => {
   return (
-    <section>
-        {/* <h2 className=''>stars</h2> */}
+    <div>
         <div className='star star1'></div>
         <div className='star star2'></div>
         <div className='star star3'></div>
@@ -12,7 +11,7 @@ const Stars = () => {
         <div className='star star6'></div>
         <div className='star star7'></div>
         <div className='star star8'></div>
-    </section>
+    </div>
   )
 }
 

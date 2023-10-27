@@ -9,10 +9,22 @@
     "description": {
       "content": "I'm a <highlight>Full Stack Developer</highlight> and <highlight>Digital Artist</highlight>.",
       "bulletedContent": [
-        "🎉 Advocate<highlight>@GraphIndia </highlight>",
-        "👨🏻‍💻  Web Developer Team Lead <highlight>@Polygon</highlight>",
-        "👨‍🏫 Digital Artist",
-        "📝 Freelancer Graphic Designer"
+        {
+          "url": "https://forum.graphadvocates.com/",
+          "bullet": "🎉 Advocate<highlight>@GraphIndia </highlight>"
+        },
+        {
+          "url": "",
+          "bullet": "👨🏻‍💻  Web Developer Team Lead <highlight>@Polygon</highlight>"
+        },
+        {
+          "url": "",
+          "bullet": "👨‍🏫 Digital Artist"
+        },
+        {
+          "url": "",
+          "bullet": "📝 Freelancer Graphic Designer"
+        }
       ]
     }
   }

@@ -175,6 +175,10 @@ section {
   justify-content: center;
 }
 
+.font {
+  font-family: minecraft;
+}
+
 .content {
   color:rgba(240, 248, 255);
   font-family: monospace;
@@ -197,6 +201,84 @@ section {
   font-size: 80px;
   color: var(--themeColor);
   padding: 0px 20px;
+}
+
+.tooltip_container {
+  position: relative;
+  display: inline-block;
+}
+.tooltip_container span {
+  visibility: hidden;
+  opacity: 0;
+  color: var(--themeTextColor);
+  font-family: monospace;
+  background-color: transparent;
+}
+
+.image:hover::after {
+  content: attr(data-tooltip);
+}
+
+.icon_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  border: white;
+  height: 8vh;
+  border-width: thin;
+  border-style: groove;
+  border-radius: 2px;
+  padding: 5px 15px 5px 15px;
+}
+
+.scrollbar {
+  padding: 20px 0px;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--themeTextColor) transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 1px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--themeTextColor); /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
+}
+.project_card {
+  min-width: 224px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-style: dashed;
+  border-width: medium;
+  border-color:var(--themeTextColor);
+  border-radius: 2px;
+  color:var(--themeTextColor);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width:90%;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+  gap:10px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.link {
+  /* padding: 5px  10px; */
+  font-size: x-large;
 }
 
 @media only screen and (max-width: 1080px) and (min-width:600px) {
@@ -249,5 +331,8 @@ section {
   .profile_container {
     padding: 5rem 0;
   }
-  
+  .project_card {
+    min-width: 150px;
+  }
 }
+

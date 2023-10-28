@@ -167,7 +167,7 @@ section {
       box-shadow: -5px 5px 0px 0px var(--hoverBoxShadow);
 }
 
-.heading {
+.heading, .quote {
   display: flex;
   color: var(--themeTextColor);
   font-family: minecraft;
@@ -333,41 +333,6 @@ hr {
   }
 }
 
-@media only screen and (max-width: 1080px) and (min-width:600px) {
-  .border_style {
-    border-style: none;
-  }
-  .container {
-    padding: 0;
-    scroll-snap-type: none;
-    scroll-behavior: smooth;
-  }
-  * {
-    scroll-snap-align: none;
-  }
-  section {
-    scroll-snap-align: none;
-    height: auto;
-  }
-  .section {
-    height: max-content;
-  }
-  .profile_container {
-    padding: 5rem 0;
-  }
-  .experience_container {
-    grid-template-columns: repeat(2,1fr);
-    height: 100%;
-    padding: 40px 0px 0px 0px;
-  }
-  .experience_content {
-    height: 20vh;
-  }
-  .section, .car_section {
-    padding: 20px 100px;
-    background-color: rgba(0,0,0,0);
-  }
-}
 
 .experience_content {
   gap:20px;
@@ -449,32 +414,60 @@ ul {
   padding: 0px 10px;
 }
 
-.cutoff-text {
-  --max-lines: 3;
-  --line-height: 1.4;
-  height: calc(var(--max-lines)*1rem*var(--line-height));
-  line-height: var(--line-height);
-  -webkit-line-clamp: var(--max-lines);
-  overflow: hidden;
-  position: relative;
+.duration {
+  font-family: monospace;
+  color: var(--themeTextColor);
 }
 
-.cutoff-text::before {
-  content:'';
-  position: absolute;
-  height: calc(2em*var(--line-height));
-  width: 100%;
-  bottom: 0;
-  pointer-events: none;
-  background: linear-gradient(to bottom, transparent, black);
+
+@media only screen and (max-width: 1080px) and (min-width:600px) {
+  .border_style {
+    border-style: none;
+  }
+  .container {
+    padding: 0;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+  }
+  * {
+    scroll-snap-align: none;
+  }
+  section {
+    scroll-snap-align: none;
+    height: auto;
+  }
+  .section {
+    height: max-content;
+  }
+  .profile_container {
+    padding: 5rem 0;
+  }
+  .experience_container {
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+    padding: 20px 0px 0px 0px;
+  }
+  .experience_content {
+    height: max-content;
+  }
+  .section, .car_section {
+    padding: 20px 100px;
+    background-color: rgba(0,0,0,0);
+  }
+  .title_box {
+    flex-direction: column;
+    justify-content: none;
+
+    align-items: normal;
+  }
 }
-.expand-btn {
-  appearance: none;
-  border: 1px solid black;
-  padding: .5em;
-  border-radius: .25em;
-  cursor: pointer;
-  margin-top: 1rem;
+
+@media only screen and (max-width:900px) {
+  .experience_container {
+    grid-template-columns: repeat(1,1fr);
+    height: 100%;
+    padding: 20px 0px 0px 0px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -497,7 +490,13 @@ ul {
     height: auto;
   }
   .heading {
-    padding-bottom: 2rem;
+    font-size: xx-large;
+  }
+  .quote {
+    font-size: larger;
+  }
+  .content {
+    font-size: medium;
   }
   .profile_container {
     padding: 5rem 0;
@@ -507,11 +506,12 @@ ul {
   }
   .experience_container {
     grid-template-columns: repeat(1,1fr);
-    height: auto;
-    padding: 40px 0px 0px 0px;
+    height: 60vh;
+    overflow: scroll;
+    padding: 0px 0px 0px 0px;
   }
   .experience_content {
-    height: auto;
+    height: max-content;
   }
   .title_box {
     flex-direction: column;

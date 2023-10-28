@@ -5,7 +5,7 @@ const Quote = () => {
     const { quote } = quoteData;
 
     return (
-        <div className='heading text-xl pt-10'>
+        <div className='quote text-xl pt-10'>
             <span className='quote_bar'>{quote.delimiter}</span>
             {quote.text}
             <span className='quote_bar'>{quote.delimiter}</span>

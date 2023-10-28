@@ -5,6 +5,7 @@ import Profile from "./components/profile";
 import Section2 from "./components/section2";
 import { RefObject, useEffect, useRef, useState } from "react";
 import Work from './components/work'
+import Carousel from './components/carousel'
 
 export default function Home() {
   const [knowMore, setKnowMore] = useState(false)
@@ -41,11 +42,17 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center justify-center pb-10 md:pb-16">
         <Section2/>
-        <div onClick={()=> setKnowMore(true)} className="cursor-pointer blog_button mt-10 md:mt-0">Know More</div>
+        <div onClick={()=> setKnowMore(true)} className={`${!knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Know More</div>
       </section>
       {knowMore && (
         <section>
           <Work/>
+        </section>
+      )}
+      {knowMore && (
+        <section className="flex flex-col items-center pb-10 md:pb-16 z-10">
+          <Carousel/>
+          <div onClick={()=> setKnowMore(false)} className={`${knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Let{"'"}s get back</div>
         </section>
       )}
     </div>

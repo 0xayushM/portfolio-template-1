@@ -12,7 +12,7 @@ const Profile = () => {
     <div className="section">
       <div className="profile_container flex flex-col gap-y-2 sm:gap-y-5 w-2/3 items-center justify-center">
         <h1 className="heading text-4xl">{greeting}</h1>
-        <div className="border_style w-full flex items-center gap-10 flex-col sm:p-16 lg:flex-row z-10">
+        <div className="border_style w-full flex items-center gap-10 flex-col lg:p-16 lg:flex-row z-10">
           <Image
             src={profileImage.src}
             height={profileImage.height}

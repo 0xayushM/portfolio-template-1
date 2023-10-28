@@ -4,6 +4,7 @@ import Sidebar from "./components/sidebar";
 import Profile from "./components/profile";
 import Section2 from "./components/section2";
 import { RefObject, useEffect, useRef, useState } from "react";
+import Work from './components/work'
 
 export default function Home() {
   const [knowMore, setKnowMore] = useState(false)
@@ -44,7 +45,7 @@ export default function Home() {
       </section>
       {knowMore && (
         <section>
-          <Profile/>
+          <Work/>
         </section>
       )}
     </div>

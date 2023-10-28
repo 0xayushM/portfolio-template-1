@@ -281,6 +281,58 @@ section {
   font-size: x-large;
 }
 
+hr {
+  border-style: dashed;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  align-items: center;
+  padding: 10px 0px 20px 0px;
+  justify-content: center;
+}
+
+.filter-bar button {
+  background-color: var(--themeTextColor);
+  padding: 5px 15px;
+  border-radius: 2px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+.filter-bar button.active {
+  background-color: var(--themeColor);
+}
+.experience_container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
+  row-gap: 20px;
+  background-color: inherit;
+  padding: 0 20px;
+  border-radius: 2px;
+  height: 70vh;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--themeTextColor) transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 4px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--themeTextColor); /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
+}
+
 @media only screen and (max-width: 1080px) and (min-width:600px) {
   .border_style {
     border-style: none;
@@ -303,8 +355,127 @@ section {
   .profile_container {
     padding: 5rem 0;
   }
+  .experience_container {
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+    padding: 40px 0px 0px 0px;
+  }
+  .experience_content {
+    height: 20vh;
+  }
+  .section, .car_section {
+    padding: 20px 100px;
+    background-color: rgba(0,0,0,0);
+  }
 }
 
+.experience_content {
+  gap:20px;
+  width: 100%;
+  border-style: dashed;
+  border-width:medium;
+  border-color: var(--themeTextColor);
+  border-radius: 2px;
+  padding: 20px;
+  overflow-y: scroll;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgb(0,0,0,0) transparent; /* Firefox */
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 0px; /* Width of scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Track color */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--themeTextColor); /* Thumb color */
+    border-radius: 8px; /* Rounded corners */
+  }
+}
+
+.experience_content::-webkit-content {
+  display: none;
+}
+
+.title_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience_name {
+  color: var(--themeColor);
+  font-family: 'minecraft';
+  font-size: large;
+}
+
+.role {
+  color: var(--themeTextColor);
+  font-family: monospace;
+  font-size: large;
+  padding: 5px 0px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.work_skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+  gap:10px;
+  padding: 10px 0px 20px 0px;
+}
+.work_skill_name {
+  background-color: rgba(240, 248, 255, 0.912);
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.work_description {
+  color: var(--themeTextColor);
+  font-family : monospace;
+  font-size: large;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0px 10px;
+}
+
+.cutoff-text {
+  --max-lines: 3;
+  --line-height: 1.4;
+  height: calc(var(--max-lines)*1rem*var(--line-height));
+  line-height: var(--line-height);
+  -webkit-line-clamp: var(--max-lines);
+  overflow: hidden;
+  position: relative;
+}
+
+.cutoff-text::before {
+  content:'';
+  position: absolute;
+  height: calc(2em*var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, black);
+}
+.expand-btn {
+  appearance: none;
+  border: 1px solid black;
+  padding: .5em;
+  border-radius: .25em;
+  cursor: pointer;
+  margin-top: 1rem;
+}
 
 @media only screen and (max-width: 600px) {
   .border_style {
@@ -333,6 +504,19 @@ section {
   }
   .project_card {
     min-width: 150px;
+  }
+  .experience_container {
+    grid-template-columns: repeat(1,1fr);
+    height: auto;
+    padding: 40px 0px 0px 0px;
+  }
+  .experience_content {
+    height: auto;
+  }
+  .title_box {
+    flex-direction: column;
+    justify-content: none;
+    align-items: normal;
   }
 }
 

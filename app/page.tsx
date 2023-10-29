@@ -6,10 +6,10 @@ import Section2 from "./components/section2";
 import { useState } from "react";
 import Work from './components/work'
 import Carousel from './components/carousel'
+import Link from "next/link";
 
 export default function Home() {
   const [knowMore, setKnowMore] = useState(false)
-
   return (
     <div className="container">
       <div className="w-full h-full top-0 text-white z-20">
@@ -23,7 +23,7 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center justify-center pb-10 md:pb-16">
         <Section2/>
-        <div onClick={()=> setKnowMore(true)} className={`${!knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Know More</div>
+        <Link href='#work' onClick={()=> setKnowMore(true)} className={`${!knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Know More</Link>
       </section>
       {knowMore && (
         <section id='work'>
@@ -33,9 +33,10 @@ export default function Home() {
       {knowMore && (
         <section className="flex flex-col items-center py-10 md:pb-16 z-10">
           <Carousel/>
-          <div onClick={()=> setKnowMore(false)} className={`${knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Let{"'"}s get back</div>
+          <Link href='#profile' onClick={()=> setKnowMore(false)} className={`${knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Let{"'"}s get back</Link>
         </section>
       )}
     </div>
   );
 }
+

@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col gap-10 items-center justify-center">
       <h1 className="heading text-4xl">{projectsData.heading}</h1>
-      <div className="scrollbar flex flex-col md:flex-row md:overflow-x-scroll flex-wrap md:flex-nowrap gap-5 w-[80%] sm:w-[70%] md:w-[67%]">
+      <div className="scrollbar flex flex-col md:flex-row md:overflow-x-scroll flex-wrap md:flex-nowrap gap-5 w-[90%] sm:w-[80%] md:w-[70%]">
         {projectsData.data.map((project) => (
           <div className="project_card" key={project.id}>
             <h1 className="highlight text-lg font flex items-center justify-center pb-2">{project.name}</h1>

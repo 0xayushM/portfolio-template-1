@@ -34,7 +34,7 @@ export default function Home() {
       <div className="w-full h-full top-0 text-white z-20">
         <Sidebar />
       </div>
-      <div className="fixed z-20 top-5 md:right-20 right-5">
+      <div className="hidden sm:block fixed z-20 top-5 md:right-20 right-5">
         <BlogButton />
       </div>
       <section className="flex flex-col items-center justify-center">
@@ -50,7 +50,7 @@ export default function Home() {
         </section>
       )}
       {knowMore && (
-        <section className="flex flex-col items-center pb-10 md:pb-16 z-10">
+        <section className="flex flex-col items-center py-10 md:pb-16 z-10">
           <Carousel/>
           <div onClick={()=> setKnowMore(false)} className={`${knowMore ? 'cursor-pointer blog_button mt-10 md:mt-0' : 'hidden'}`}>Let{"'"}s get back</div>
         </section>

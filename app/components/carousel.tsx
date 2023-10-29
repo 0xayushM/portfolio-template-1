@@ -32,7 +32,7 @@ const ImgSlider: React.FC = () => {
             {carouselData.images.map((imageUrl, index) => (
               <Wrap key={index} isactive={index === activeIndex ? "true" : ""}>
                 <a>
-                  <div className='image-container'>
+                  <div className='image-container h-[40vh] md:h-[60vh]'>
                     <Image src={imageUrl} alt={`Slide ${index + 1}`} layout='fill' objectFit='cover' />
                   </div>
                 </a>
@@ -101,7 +101,7 @@ const Wrap = styled.div<WrapProps>`
     position: relative;
     width: 100%;
     border-radius: 10px;
-    height: 60vh;
+    /* height: 60vh; */
     transform: scale(${props => (props.isactive ? '1.1' : '1')});
     transition: transform 0.3s ease;
     ${props =>
@@ -111,7 +111,6 @@ const Wrap = styled.div<WrapProps>`
       z-index:2;
     `}
   }
-
   &:hover {
     padding: 0;
     transition: 100ms;

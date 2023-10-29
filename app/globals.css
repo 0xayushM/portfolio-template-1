@@ -444,9 +444,6 @@ ul {
   .section {
     height: max-content;
   }
-  .profile_container {
-    padding: 5rem 0;
-  }
   .experience_container {
     grid-template-columns: repeat(2,1fr);
     height: 60vh;
@@ -455,6 +452,9 @@ ul {
   }
   .experience_content {
     height: max-content;
+  }
+  .profile_container {
+    padding:3rem 0;
   }
   .section, .car_section {
     padding: 20px 100px;
@@ -494,6 +494,7 @@ ul {
     background-color: rgba(0,0,0,0);
   }
   .car_section {
+    padding: 0 50px;
     width: 100%;
   }
   * {
@@ -510,17 +511,17 @@ ul {
     font-size: larger;
   }
   .content {
-    font-size: medium;
+    font-size: large;
   }
   .profile_container {
-    padding: 5rem 0;
+    padding:2rem 0;
   }
   .project_card {
     min-width: 100%;
   }
   .experience_container {
     grid-template-columns: repeat(1,1fr);
-    height: 60vh;
+    height: 80vh;
     overflow: scroll;
     padding: 0px 0px 0px 0px;
   }

@@ -10,16 +10,16 @@ const Profile = () => {
 
   return (
     <div className="section">
-      <div className="profile_container flex flex-col gap-y-2 sm:gap-y-5 w-2/3 items-center justify-center">
+      <div className="profile_container flex flex-col gap-y-2 sm:gap-y-5 md:w-2/3 items-center justify-center">
         <h1 className="heading text-4xl">{greeting}</h1>
-        <div className="border_style w-full flex items-center gap-10 flex-col lg:p-16 lg:flex-row z-10">
+        <div className="border_style sm:w-full w-[80%] flex items-center gap-10 flex-col lg:p-16 lg:flex-row z-10">
           <Image
             src={profileImage.src}
             height={profileImage.height}
             width={profileImage.width}
             alt={profileImage.alt}
           />
-          <div className="description tracking-wider">
+          <div className=" tracking-wider">
             <div className="content text-xl">
               <p
                 dangerouslySetInnerHTML={{
@@ -47,6 +47,9 @@ const Profile = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="flex sm:hidden z-20 py-5">
+          <BlogButton />
         </div>
         <Quote/>
       </div>

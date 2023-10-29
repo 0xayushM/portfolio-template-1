@@ -20,7 +20,7 @@ const Work = () => {
 
   return (
     <div className="section flex flex-col items-center justify-center gap-y-5 pt-10">
-      <h1 className="heading flex items-center justify-center w-full text-3xl md:text-4xl">{workExData.heading}</h1>
+      <h1 className="heading flex items-center justify-center w-[80%] text-center text-3xl md:text-4xl">{workExData.heading}</h1>
       <FilterBar
         types={types}
         selectedType={selectedType}

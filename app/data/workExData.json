@@ -1,313 +1,124 @@
 {
-    "heading": "Work Experience",
-    "data": [
+  "heading":"Work Experience",
+    "data" : [
         {
-            "organization": "Biconomy",
-            "duration": "April 2023 - Present",
-            "skills": [
-                "Solidity",
-                "TypeScript"
+            "organization" : "Org 1,2",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2"
             ],
-            "role": "Junior Blockchain Engineer",
-            "description": [
+            "role":"Role in the company",
+            "description" : [
                 {
                     "url":"",
-                    "bullet":"Integration of new chains within the Biconomy’s mexa-sdk"
-                },
-                {
-                    "url":"",
-                    "bullet":"Developing demo dapps with the integration of the Biconomy’s AA SDK"
-                },
-                {
-                    "url":"",
-                    "bullet":"Helping devs in their technical queries in different communication channels."
+                    "bullet":"Description about the work during your internship."
                 }
             ],
-            "type": [
-                "Dev"
-            ]
+            "type" : ["type1", "type2"]
         },
         {
-            "organization": "The Graph India",
-            "duration": "April 2023 - Present",
-            "skills": [
-                "GraphQL",
-                "Solidity",
-                "Technical Writing"
+            "organization" : "Org 1,3",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4",
+                "Skill5"
             ],
-            "role": "Developer Success",
-            "description": [
+            "role":"Role in the company",
+            "description" : [
                 {
-                    "url":"",
-                    "bullet":"Growing The Graph Protocol Ecosystem in INDIA."
+                    "url":"https://ayushmangal.com",
+                    "bullet":"<highlight>Description</highlight> about the work during your internship."
                 },
                 {
                     "url":"",
-                    "bullet":"Organising workshops and various programs to nourish the community of Graph Protocol in INDIA."
+                    "bullet":"Description about the work during your internship."
                 },
                 {
                     "url":"",
-                    "bullet":"Delivering Technical Workshops to Graph Advocates around Graph Protocol."
-                }
-            ],
-            "type": [
-                "DevRel"
-            ]
-        },
-        {
-            "organization": "Hyperlane India",
-            "duration": "March 2023 - Present",
-            "skills": [
-                "Solidity",
-                "TypeScript"
-            ],
-            "role": "Developer",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Deployed Hyperlane on 6+ chains"
+                    "bullet":"Description about the work during your internship."
                 },
                 {
                     "url":"",
-                    "bullet":"Created Technical Content about Hyperlane."
+                    "bullet":"Description about the work during your internship."
                 },
                 {
                     "url":"",
-                    "bullet":"Reviewed and Tested the Documentation."
+                    "bullet":"Description about the work during your internship."
                 }
             ],
-            "type": [
-                "Dev"
-            ]
+            "type" : ["type1", "type3"]
         },
         {
-            "organization": "Polygon Labs",
-            "duration": "April 2022 - Present",
-            "skills": [
-                "Community Management",
-                "Public Speaking"
+            "organization" : "Org 3",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2"
             ],
-            "role": "Polygon Guild Mage",
-            "description": [
+            "role":"Role in the company",
+            "description" : [
                 {
                     "url":"",
-                    "bullet":"Co-Founded and Managing a community of 900+ members."
-                },
-                {
-                    "url":"",
-                    "bullet":"Organised Rajasthan's Largest Web3 Event Polygon Guild Jaipur RoadShow attended by people from all over India."
-                },
-                {
-                    "url":"",
-                    "bullet":"Organised First Web3 offline workshop series in INDIA, BUIDL IRL"
+                    "bullet":"Description about the work during your internship."
                 }
             ],
-            "type": [
-                "Volunteer"
-            ]
+            "type" : ["type3"]
         },
         {
-            "organization": "Polygon Labs",
-            "duration": "Feb 2022 - Present",
-            "skills": [
-                "Public Speaking",
-                "Technical Writing"
+            "organization" : "Org 2,4",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4"
             ],
-            "role": "Polygon Advocate",
-            "description": [
+            "role":"Role in the company",
+            "description" : [
                 {
                     "url":"",
-                    "bullet":"Gave 4+ Talks and 10+ workshops about the Web3 Ecosystem.."
-                },
-                {
-                    "url":"",
-                    "bullet":"Spoke at a Twitter Space having 250+ listeners about Open Source and Polygon organized by GSSOC."
+                    "bullet":"Description about the work during your internship."
                 }
             ],
-            "type": [
-                "Volunteer"
-            ]
+            "type" : ["type2", "type4"]
         },
         {
-            "organization": "Phyllo",
-            "duration": "April 2022 - Feb 2023",
-            "skills": [
-                "Node.js",
-                "Express.js"
+            "organization" : "Org 1",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2"
             ],
-            "role": "SDE Intern",
-            "description": [
+            "role":"Role in the company",
+            "description" : [
                 {
                     "url":"",
-                    "bullet":"Building Indexers for fetching requried data from different Blockchains."
-                },
-                {
-                    "url":"",
-                    "bullet":"Building 10+ APIs provide reputation data of a User, DAO, and many more."
+                    "bullet":"Description about the work during your internship."
                 }
             ],
-            "type": [
-                "Dev"
-            ]
+            "type" : ["type1"]
         },
         {
-            "organization": "Whrrl",
-            "duration": "March 2022 - April 2022",
-            "skills": [
-                "Solidity",
-                "Ethers.js",
-                "JavaScript"
+            "organization" : "Org 3,4",
+            "duration" : "month year - month year",
+            "skills" : [
+                "Skill1",
+                "Skill2",
+                "Skill3",
+                "Skill4"
             ],
-            "role": "Blockchain Developer Intern",
-            "description": [
+            "role":"Role in the company",
+            "description" : [
                 {
                     "url":"",
-                    "bullet":"Natively implemented Wallet Connect on the DApp for keeping the minimum number of libraries."
-                },
-                {
-                    "url":"",
-                    "bullet":"Integrated deployed smart contracts with Front-end."
+                    "bullet":"Description about the work during your internship."
                 }
             ],
-            "type": [
-                "Dev"
-            ]
-        },
-        {
-            "organization": "Teksna",
-            "duration": "Nov 2021",
-            "skills": [
-                "Flutter",
-                "Firebase",
-                "Node.js",
-                "PostgreSQL"
-            ],
-            "role": "Mobile Application Developer",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Created the Authentication API and saving the data of the users in a separate database."
-                },
-                {
-                    "url":"",
-                    "bullet":"Design, Developed and Implemented database maintaining 2 different roles."
-                }
-            ],
-            "type": [
-                "Dev"
-            ]
-        },
-        {
-            "organization": "EduTekZila",
-            "duration": "Oct 2021 - Nov 2021",
-            "skills": [
-                "Flutter",
-                "Firebase"
-            ],
-            "role": "SDE Intern",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Design and Built the Back-end maintaining 3 different roles."
-                },
-                {
-                    "url":"",
-                    "bullet":"Developed more than 10 UI pages."
-                },
-                {
-                    "url":"",
-                    "bullet":"Integrated the front-end and back-end"
-                }
-            ],
-            "type": [
-                "Dev"
-            ]
-        },
-        {
-            "organization": "ENS",
-            "duration": "",
-            "skills": [
-                "Node.js"
-            ],
-            "role": "",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Corrected the .env naming variables."
-                }
-            ],
-            "type": [
-                "Open Source"
-            ]
-        },
-        {
-            "organization": "Hyperlane",
-            "duration": "",
-            "skills": [
-                "TypeScript"
-            ],
-            "role": "",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Corrected the .env naming variables."
-                }
-            ],
-            "type": [
-                "Open Source"
-            ]
-        },
-        {
-            "organization": "Hyperlane",
-            "duration": "",
-            "skills": [
-                "Technical Writing"
-            ],
-            "role": "",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Corrected the .env naming variables."
-                }
-            ],
-            "type": [
-                "Open Source"
-            ]
-        },
-        {
-            "organization": "Polygon",
-            "duration": "",
-            "skills": [
-                "Solidity",
-                "JavaScript"
-            ],
-            "role": "",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Corrected the .env naming variables."
-                }
-            ],
-            "type": [
-                "Open Source"
-            ]
-        },
-        {
-            "organization": "Polygon",
-            "duration": "",
-            "skills": [
-                "Solidity"
-            ],
-            "role": "",
-            "description": [
-                {
-                    "url":"",
-                    "bullet":"Corrected the .env naming variables."
-                }
-            ],
-            "type": [
-                "Open Source"
-            ]
+            "type" : ["type4", "type3"]
         }
     ]
 }

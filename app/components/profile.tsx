@@ -38,7 +38,7 @@ const Profile = () => {
                     key={index}
                     dangerouslySetInnerHTML={{
                       __html: bullet.bullet
-                        .replace(/<highlight>/g, '<span class="highlight">')
+                        .replace(/<highlight>/g, '<span key={index} class="highlight">')
                         .replace(/<\/highlight>/g, "</span>"),
                     }}
                   />

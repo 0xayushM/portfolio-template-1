@@ -1,7 +1,7 @@
 # Portfolio Website 🚀
 ### [Demo link](https://portfolio-template-1-0xayushM.vercel.app/)
 
-<img src='./README_ASSETS/image.png' target="_blank"/>
+<img src='./readme_assets/image.png' target="_blank"/>
 <video src='./readme_assets/recording.mov'></video>
 
 This is an open-source template for creating a portfolio website using `Next.js`, `TypeScript`, and `Tailwind CSS`. The template is designed to allow users to easily create their own portfolio websites by forking this repository and updating the data in `JSON` files.

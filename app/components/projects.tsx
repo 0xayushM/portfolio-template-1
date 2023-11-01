@@ -17,9 +17,9 @@ const Projects = () => {
           <div className="project_card" key={project.id}>
             <h1 className="highlight text-lg font flex items-center justify-center pb-2">{project.name}</h1>
             <hr className="pt-2" />
-            <div className="content text-[15px]">
+            <div className="content text-[15px] flex flex-col justify-between h-[80%] pt-0">
               <div>
-                <p className="p-5 flex items-center">
+                <p className="px-5 py-2 flex items-center">
                   {project.description}
                 </p>
               </div>

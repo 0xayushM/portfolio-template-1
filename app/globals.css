@@ -255,6 +255,7 @@ section {
 .project_card {
   min-width: 224px;
   padding: 10px;
+  min-height: 250px;
   padding-bottom: 20px;
   border-style: dashed;
   border-width: medium;

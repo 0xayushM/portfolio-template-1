@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google'
 import websiteData from './data/websiteData.json'
 
@@ -17,7 +18,10 @@ export default function RootLayout({
       <meta name='description' content={websiteData.description}/>
       <link href={websiteData.icon} rel='icon' type='image/png'/>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }

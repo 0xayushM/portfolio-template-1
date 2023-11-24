@@ -2,16 +2,23 @@
 
 <link href="globals.css" rel="stylesheet"></link>
 
+
+<div align=''>
+
+### [Demo](https://portfolio-template-1-0xayushM.vercel.app/) | [Video](https://youtu.be/PoDPFeEr_Lo)
+
+</div>
 <img src='./readme_assets/image.png' target="_blank"/>
 
-<div class='top-bar' style='display:flex; gap:10px; margin: 10px 0px; font-weight: bold'>
+
+<!-- <div class='top-bar' style='display:flex; gap:10px; margin: 10px 0px; font-weight: bold'>
     <div class='demo-btn' style='background-color: gray; padding: 5px 15px; border-radius: 5px;'>
         <a href='https://portfolio-template-1-0xayushM.vercel.app/' target='_blank' style='text-decoration:none; color:white;'>Demo</a>
     </div>
     <div class='video-btn' style='background-color: red; border-radius: 5px; padding: 5px 15px;'>
         <a href='https://youtu.be/PoDPFeEr_Lo' target='_blank' style='text-decoration:none; color:white;'>Video</a>
 </div>
-</div>
+</div> -->
 
 
 

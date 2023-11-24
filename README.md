@@ -1,5 +1,38 @@
 # Portfolio Website 🚀
 
+<link href="globals.css" rel="stylesheet"></link>
+
+<style>
+    a {
+        text-decoration:none;
+        color:white;
+    }
+    .top-bar {
+        display: flex;
+        width: 100%;
+        margin: 10px 0px;
+        gap:10px;
+        font-weight: bold;
+        color:white;
+    }
+    .demo-btn{
+        background-color: gray;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .video-btn {
+        background-color: red;
+        border-radius: 5px;
+        padding: 5px 15px;
+    }
+    .demo-btn:hover, .video-btn:hover {
+        transform: scale(1.05);
+        color:white;
+        transition: all 300ms;
+    }
+</style>
+
+
 <img src='./readme_assets/image.png' target="_blank"/>
 
 <div class='top-bar' style='display:flex; gap:10px; margin: 10px 0px; font-weight: bold'>

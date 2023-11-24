@@ -67,20 +67,26 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
 - **Side Navbar**: Connect on socials via `socialData.json`
 - **Adding links**: Add links to a specific line in your `Profile section` or `Work experience` in their respective **json** files like this -
 
-    ```
+    ```json
     {
       "url": "link to redirect to",
       "bullet": "description"
     }
     ```
 
-- **Highlight Word**: You can highlight specific words in a description like this - 
+- **Highlight Word**: You can highlight specific words in a description in a json file like this - 
 
+    Ex: 
+
+    ```json
+    {
+        "content": "I'm a <highlight>Full Stack     Developer</highlight> and <highlight>Digital Artist</highlight>."
+    }
     ```
-    "<highlight> Highlighted word </highlight>."
+
 - **Highlight Color**: Change the color of the **highlighted content** in `globals.css`
 
-      
+     ``` css
       :root {
         --themeColor : #FBBF64;
         --hoverColor: #ffdfae;
@@ -90,7 +96,7 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
         --themeTextColor : white;
         --themeTextColor2 : black;
         }
-  
+    ```
   Turn up your creative vibes by mixing and matching content with these JSON files. This modular approach makes customizing your portfolio a breeze.
 
 

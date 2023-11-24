@@ -80,7 +80,7 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
 
     ```json
     {
-        "content": "I'm a <highlight>Full Stack     Developer</highlight> and <highlight>Digital Artist</highlight>."
+        "content": "I'm a <highlight> Full Stack Developer </highlight> and <highlight> Digital Artist </highlight>."
     }
     ```
 

@@ -39,7 +39,7 @@ This is an open-source template for creating a portfolio website using `Next.js`
    cd portfolio-template-1
    npm install
    ```
-4. **Update data:** Modify the JSON files in the data directory to customize the content of your portfolio.
+4. **Update data:** Modify the JSON files in the data directory to customize the content of your portfolio. <a href='#custom'>Learn More</a>
 
 5. **Run the development server:** Start the Next.js development server to see your changes in real-time.
 
@@ -50,6 +50,9 @@ This is an open-source template for creating a portfolio website using `Next.js`
 6. **Customize Styling:** Tailwind CSS is used for styling. Customize the styles in the `globals.css` directory to match your design preferences.
 
 7. **Deployment:** Once you're satisfied with your portfolio, deploy it to platforms like Vercel, Netlify, or GitHub Pages.
+
+
+<div id='custom'>
 
 ## Component-JSON Mapping 📊
 
@@ -89,6 +92,10 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
         }
   
   Turn up your creative vibes by mixing and matching content with these JSON files. This modular approach makes customizing your portfolio a breeze.
+
+
+</div>
+
 
 ## Contribute 🤝
 

@@ -39,7 +39,7 @@ This is an open-source template for creating a portfolio website using `Next.js`
    cd portfolio-template-1
    npm install
    ```
-4. **Update data:** Modify the JSON files in the data directory to customize the content of your portfolio. <a href='#custom'>Learn More</a>
+4. **Update data:** Modify the JSON files in the data directory to customize the content of your portfolio. To understand how to custom map <a href='#custom'>click here.</a>
 
 5. **Run the development server:** Start the Next.js development server to see your changes in real-time.
 

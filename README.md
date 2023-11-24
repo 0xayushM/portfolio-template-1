@@ -1,12 +1,55 @@
 # Portfolio Website 🚀
 
-### [Demo link](https://portfolio-template-1-0xayushM.vercel.app/)
-
-### [Video link](https://youtu.be/PoDPFeEr_Lo)
+<style>
+    a {
+        text-decoration:none;
+        color:white;
+    }
+    .top-bar {
+        display: flex;
+        width: 100%;
+        margin: 10px 0px;
+        gap:10px;
+        font-weight: bold;
+        color:white;
+    }
+    .demo-btn{
+        background-color: gray;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    .video-btn {
+        background-color: red;
+        border-radius: 5px;
+        padding: 5px 15px;
+    }
+    .demo-btn:hover, .video-btn:hover {
+        transform: scale(1.05);
+        color:white;
+        transition: all 300ms;
+    }
+</style>
 
 <img src='./readme_assets/image.png' target="_blank"/>
 
-This is an open-source template for creating a portfolio website using `Next.js`, `TypeScript`, and `Tailwind CSS`. The template is designed to allow users to easily create their own portfolio websites by forking this repository and updating the data in `JSON` files.
+<div class='top-bar'>
+    <div class='demo-btn'>
+        <a href='https://portfolio-template-1-0xayushM.vercel.app/' target='_blank'>Demo</a>
+    </div>
+    <div class='video-btn'>
+        <a href='https://youtu.be/PoDPFeEr_Lo' target='_blank'>Video</a>
+    </div>
+</div>
+
+
+
+This is an open-source template for creating a portfolio website. The template is designed to allow users to easily create their own portfolio websites by forking this repository and updating the data in `JSON` files.
+
+## Technologies Used 🧑🏻‍💻
+
+![Next-JS](https://img.shields.io/badge/Next.Js-black?style=for-the-badge&logo=nextdotjs&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=blue)
+![Tailwind-CSS](https://img.shields.io/badge/Tailwind-gray?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB)
 
 ## Features ⭐️
 

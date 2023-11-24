@@ -1,5 +1,7 @@
 # Portfolio Website 🚀
+
 ### [Demo link](https://portfolio-template-1-0xayushM.vercel.app/)
+
 ### [Video link](https://youtu.be/PoDPFeEr_Lo)
 
 <img src='./readme_assets/image.png' target="_blank"/>
@@ -31,23 +33,25 @@ This is an open-source template for creating a portfolio website using `Next.js`
    ```bash
    git clone https://github.com/your_username/portfolio-template-1.git
    ```
+
 3. **Install Dependencies:** Navigate to the project folder and install the required dependencies.
-    ```bash
-    cd portfolio-template-1
-    npm install
-    ```
+   ```bash
+   cd portfolio-template-1
+   npm install
+   ```
 4. **Update data:** Modify the JSON files in the data directory to customize the content of your portfolio.
 
 5. **Run the development server:** Start the Next.js development server to see your changes in real-time.
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
+
 6. **Customize Styling:** Tailwind CSS is used for styling. Customize the styles in the `globals.css` directory to match your design preferences.
 
 7. **Deployment:** Once you're satisfied with your portfolio, deploy it to platforms like Vercel, Netlify, or GitHub Pages.
 
-## Component-JSON Mapping 📊 
+## Component-JSON Mapping 📊
 
 Wondering how to tailor your portfolio's content? Let's demystify it with a groovy flow chart that links each component to its JSON buddy:
 
@@ -58,10 +62,23 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
 - **Work Experience Section**: Share experiences in `workExData.json`
 - **Carousel**: Spotlight your images in `carouselData.json`
 - **Side Navbar**: Connect on socials via `socialData.json`
-- **Highlight Color and Background image**: Change the color of the **highlighted content** or change the **background image** in `globals.css` 
+- **Adding links**: Add links to a specific line in your `Profile section` or `Work experience` in their respective **json** files like this -
 
     ```
-    :root {
+    {
+      "url": "link to redirect to",
+      "bullet": "description"
+    }
+    ```
+
+- **Highlight Word**: You can highlight specific words in a description like this - 
+
+    ```
+    "<highlight> Highlighted word </highlight>."
+- **Highlight Color**: Change the color of the **highlighted content** in `globals.css`
+
+      
+      :root {
         --themeColor : #FBBF64;
         --hoverColor: #ffdfae;
         --boxShadow : #a98043;
@@ -69,9 +86,9 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
         --themeColor2 : white;
         --themeTextColor : white;
         --themeTextColor2 : black;
-    }
-    ```
-Turn up your creative vibes by mixing and matching content with these JSON files. This modular approach makes customizing your portfolio a breeze.
+        }
+  
+  Turn up your creative vibes by mixing and matching content with these JSON files. This modular approach makes customizing your portfolio a breeze.
 
 ## Contribute 🤝
 
@@ -84,7 +101,6 @@ Turn up your creative vibes by mixing and matching content with these JSON files
 - 📡 Push your changes to your fork.
 
 - 🌟 Submit a pull request to the main branch of this repository.
-
 
 <hr>
 

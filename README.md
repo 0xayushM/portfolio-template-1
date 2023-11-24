@@ -1,46 +1,11 @@
 # Portfolio Website 🚀
 
-<style>
-    a {
-        text-decoration:none;
-        color:white;
-    }
-    .top-bar {
-        display: flex;
-        width: 100%;
-        margin: 10px 0px;
-        gap:10px;
-        font-weight: bold;
-        color:white;
-    }
-    .demo-btn{
-        background-color: gray;
-        padding: 5px 15px;
-        border-radius: 5px;
-    }
-    .video-btn {
-        background-color: red;
-        border-radius: 5px;
-        padding: 5px 15px;
-    }
-    .demo-btn:hover, .video-btn:hover {
-        transform: scale(1.05);
-        color:white;
-        transition: all 300ms;
-    }
-</style>
-
 <img src='./readme_assets/image.png' target="_blank"/>
 
-<div class='top-bar'>
-    <div class='demo-btn'>
-        <a href='https://portfolio-template-1-0xayushM.vercel.app/' target='_blank'>Demo</a>
-    </div>
-    <div class='video-btn'>
-        <a href='https://youtu.be/PoDPFeEr_Lo' target='_blank'>Video</a>
-    </div>
+<div class='top-bar' style='display:flex; gap:10px; margin: 10px 0px; font-weight: bold'>
+        <a class='demo-btn' href='https://portfolio-template-1-0xayushM.vercel.app/' target='_blank' style='text-decoration:none; color:white;background-color: gray; padding: 5px 15px; border-radius: 5px;'>Demo</a>
+        <a class='video-btn' href='https://youtu.be/PoDPFeEr_Lo' target='_blank' style='text-decoration:none; color:white;background-color: red; border-radius: 5px; padding: 5px 15px;'>Video</a>
 </div>
-
 
 
 This is an open-source template for creating a portfolio website. The template is designed to allow users to easily create their own portfolio websites by forking this repository and updating the data in `JSON` files.

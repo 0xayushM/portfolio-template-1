@@ -65,6 +65,7 @@ Wondering how to tailor your portfolio's content? Let's demystify it with a groo
 - **Work Experience Section**: Share experiences in `workExData.json`
 - **Carousel**: Spotlight your images in `carouselData.json`
 - **Side Navbar**: Connect on socials via `socialData.json`
+- **Website details**: Change the title, description and icon of your portfolio in `websiteData.json`
 - **Adding links**: Add links to a specific line in your `Profile section` or `Work experience` in their respective **json** files like this -
 
     ```json

@@ -3,9 +3,14 @@
 <img src='./readme_assets/image.png' target="_blank"/>
 
 <div class='top-bar' style='display:flex; gap:10px; margin: 10px 0px; font-weight: bold'>
-        <a class='demo-btn' href='https://portfolio-template-1-0xayushM.vercel.app/' target='_blank' style='text-decoration:none; color:white;background-color: gray; padding: 5px 15px; border-radius: 5px;'>Demo</a>
-        <a class='video-btn' href='https://youtu.be/PoDPFeEr_Lo' target='_blank' style='text-decoration:none; color:white;background-color: red; border-radius: 5px; padding: 5px 15px;'>Video</a>
+    <div class='demo-btn' style='background-color: gray; padding: 5px 15px; border-radius: 5px;'>
+        <a href='https://portfolio-template-1-0xayushM.vercel.app/' target='_blank' style='text-decoration:none; color:white;'>Demo</a>
+    </div>
+    <div class='video-btn' style='background-color: red; border-radius: 5px; padding: 5px 15px;'>
+        <a href='https://youtu.be/PoDPFeEr_Lo' target='_blank' style='text-decoration:none; color:white;'>Video</a>
 </div>
+</div>
+
 
 
 This is an open-source template for creating a portfolio website. The template is designed to allow users to easily create their own portfolio websites by forking this repository and updating the data in `JSON` files.
